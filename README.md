@@ -214,13 +214,12 @@ Os testes não devem ser alterados em nenhum momento da aplicação, caso tenha 
 #
 
 ### **GET /developers/:id**
-
-- Através do id de um desenvolvedor, deve retornar um array de objetos contendo dados das seguintes tabelas:
+Através do id de um desenvolvedor, deve retornar um array de objetos contendo dados das seguintes tabelas:
 
   - **_developers_**;
   - **_developer_infos_**;
   - **_projects_**.
-
+  
 - Os dados devem ser retornados exatamente como definidos aqui. Você pode usar apelidos (alias) para realizar essa tarefa:
 
   - **developerId**: tipo **_number_**;
@@ -271,6 +270,7 @@ Os testes não devem ser alterados em nenhum momento da aplicação, caso tenha 
     }
     ```
 
+- 
 #
 
 ### **PATCH /developers/:id**
